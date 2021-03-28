@@ -5,6 +5,11 @@ There are test for main services.
 
 
 ## Overview
+
+The main class is named Application.
+The input file is in resource package.
+The output file will be stored in resource package.
+
 The mower sensors are simple mocks with only one possible behaviour.
 To have other behaviours only create new implementation of BladeAdapter and CameraAdapter and set up them into Application class.
 
